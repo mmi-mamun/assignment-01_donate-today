@@ -7,6 +7,8 @@ div{
 }
 .one{
     background-image: url(images/donation5.jpg);
+    background-position: center;
+    background-size: cover;
     height: 1200px;
     font-weight: 700;
     background-repeat: no-repeat;
@@ -17,4 +19,12 @@ div{
     text-decoration: none;
     background-image: linear-gradient(orange, tomato);
     padding: 5px 10px;
+}
+
+.footer{
+    padding-top: 25px;
+    height: 150px;
+    background-color: black;
+    color: white;
+    text-align: center;
 }
