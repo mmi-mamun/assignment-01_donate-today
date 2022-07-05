@@ -5,21 +5,99 @@ body{
 div{
 
 }
+
+#fonts{
+    font-weight: 200;
+}
 .one{
     background-image: url(images/donation5.jpg);
     background-position: center;
     background-size: cover;
-    height: 1200px;
+    height: 600px;
     font-weight: 700;
     background-repeat: no-repeat;
     color: white;
     text-align: center;
+    margin-bottom: 150px;
+}
+.two{
+    margin-bottom: 150px;
+    text-align: center;
+}
+.two_amount{
+    display: flex;
+    margin-left: 300px;
+}
+.two_individual{
+    border: 2px solid gray;
+    margin: 20px;
+    padding: 10px;
 }
 .Donate-button{
     text-decoration: none;
     background-image: linear-gradient(orange, tomato);
     padding: 5px 10px;
 }
+
+.three{
+    text-align: center;
+    margin-bottom: 150px;
+}
+
+.four{
+    display: flex;
+    margin-bottom: 150px;
+    
+}
+
+.four_design{
+    border: 2px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.five{
+    display: flex;
+    margin-bottom: 150px;
+
+
+}
+
+.five_design{
+    width: 50%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.five_design img{
+    width: 100%;
+}
+.five_button{
+    text-decoration: none;
+    background-image: linear-gradient(tomato, purple);
+    padding: 5px 10px;
+}
+.six{
+    display: flex;
+    margin-bottom: 150px;
+}
+.six_design{
+    width: 50%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.six_design img{
+    width: 100%;
+}
+
+.seven{
+    text-align: center;
+    margin-bottom: 200px;
+}
+
 
 .footer{
     padding-top: 25px;
