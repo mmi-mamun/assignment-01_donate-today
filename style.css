@@ -40,7 +40,7 @@ div {}
 .donate-button {
 
     /* background-image: linear-gradient(orange, tomato); */
-    background-color: red;
+    background-color: tomato;
     padding: 5px 10px;
     border: 0;
     border-radius: 4px;
@@ -181,7 +181,7 @@ div {}
 
 .update-form {
     /* height: 300px; */
-    width: 60%;
+    width: 50%;
     background-color: rgba(137, 172, 69, 0.2);
     margin: 0 auto;
 }
@@ -204,15 +204,18 @@ div {}
     padding: 5px 10px;
     border: 0;
     border-radius: 0 4px 4px 0;
-    padding: 8px 16px;
+    padding: 8px 24px;
     cursor: pointer;
+    margin-left: -6px;
 }
 
 
 .footer {
     padding-top: 25px;
-    height: 150px;
+    height: 120px;
     background-color: black;
     color: white;
     text-align: center;
+
+    font-family: 'Lobster', cursive;
 }
