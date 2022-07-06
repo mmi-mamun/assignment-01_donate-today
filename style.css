@@ -57,6 +57,8 @@ div {}
 .two {
     margin-bottom: 150px;
     text-align: center;
+    width: 50%;
+    margin: 0 auto;
 }
 
 .two_amount {
@@ -95,6 +97,7 @@ div {}
 
 .three {
     text-align: center;
+    margin-top: 100px;
     margin-bottom: 150px;
 }
 
@@ -209,6 +212,11 @@ div {}
     margin-left: -6px;
 }
 
+.fix-width {
+    width: 50%;
+    margin: 0 auto;
+
+}
 
 .footer {
     padding-top: 25px;
