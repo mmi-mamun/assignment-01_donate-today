@@ -131,9 +131,16 @@ div {}
     padding: 30px 16px;
 }
 
+.how-to-contribute {
+    width: 75%;
+    margin: 0 auto;
+}
+
 .five {
     display: flex;
-    margin-bottom: 150px;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
 }
 
 .five_design {
@@ -142,8 +149,10 @@ div {}
     padding-right: 10px;
 }
 
-.five_design img {
-    width: 100%;
+.five_design img,
+.six_design img {
+    width: 90%;
+    border-radius: 10px;
 }
 
 .five_button {
@@ -153,6 +162,7 @@ div {}
 }
 
 .six {
+    margin-top: 70px;
     display: flex;
     margin-bottom: 150px;
 }
@@ -163,9 +173,6 @@ div {}
     padding-right: 10px;
 }
 
-.six_design img {
-    width: 100%;
-}
 
 .seven {
     text-align: center;
