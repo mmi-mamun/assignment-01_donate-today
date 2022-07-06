@@ -1,15 +1,22 @@
-body{
+* {
     margin: 0;
+    padding: 0;
+
+}
+
+body {
+
     font-family: 'Prompt', sans-serif;
 }
-div{
 
-}
+div {}
 
-#fonts{
+#fonts {
     font-weight: 200;
 }
-.one{
+
+.header {
+    /* filter: blur(1px); */
     background-image: url(images/flood.webp);
     background-position: center;
     background-size: cover;
@@ -19,38 +26,83 @@ div{
     color: white;
     text-align: center;
     margin-bottom: 150px;
-}
-.two{
-    margin-bottom: 150px;
-    text-align: center;
-}
-.two_amount{
     display: flex;
-    margin-left: 300px;
+    align-items: center;
+    justify-content: center;
 }
-.two_individual{
-    border: 2px solid gray;
-    margin: 20px;
-    padding: 10px;
+
+.header-content {
+    width: 800px;
+    height: 300px;
+
 }
-.Donate-button{
-    text-decoration: none;
-    background-image: linear-gradient(orange, tomato);
+
+.donate-button {
+
+    /* background-image: linear-gradient(orange, tomato); */
+    background-color: red;
     padding: 5px 10px;
+    border: 0;
+    border-radius: 4px;
+    padding: 12px 16px;
+    margin: 16px 0;
 }
 
-.three{
+.donate-button a {
+    color: white;
+    text-decoration: none;
+}
+
+
+.two {
+    margin-bottom: 150px;
+    text-align: center;
+}
+
+.two_amount {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 40px 0;
+}
+
+.two_individual {
+    width: 125px;
+    height: 110px;
+    background-color: rgb(206, 194, 194);
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid transparent;
+}
+
+.two_individual:hover {
+    color: red;
+    background-color: rgba(255, 0, 0, 0.11);
+    border: 2px solid red;
+}
+
+.donate-input {
+    border: 0;
+    border-bottom: 1px solid gray;
+    width: 720px;
+    text-align: center;
+    padding: 8px;
+}
+
+.three {
     text-align: center;
     margin-bottom: 150px;
 }
 
-.four{
+.four {
     display: flex;
     margin-bottom: 150px;
-    
+
 }
 
-.four_design{
+.four_design {
     border: 2px;
     margin-left: 5px;
     margin-right: 5px;
@@ -58,48 +110,51 @@ div{
     padding-right: 10px;
 }
 
-.five{
+.five {
     display: flex;
     margin-bottom: 150px;
 
 
 }
 
-.five_design{
+.five_design {
     width: 50%;
     padding-left: 10px;
     padding-right: 10px;
 }
 
-.five_design img{
+.five_design img {
     width: 100%;
 }
-.five_button{
+
+.five_button {
     text-decoration: none;
     background-image: linear-gradient(tomato, purple);
     padding: 5px 10px;
 }
-.six{
+
+.six {
     display: flex;
     margin-bottom: 150px;
 }
-.six_design{
+
+.six_design {
     width: 50%;
     padding-left: 10px;
     padding-right: 10px;
 }
 
-.six_design img{
+.six_design img {
     width: 100%;
 }
 
-.seven{
+.seven {
     text-align: center;
     margin-bottom: 200px;
 }
 
 
-.footer{
+.footer {
     padding-top: 25px;
     height: 150px;
     background-color: black;
